@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">projet pojo</string>
+    <string name="cr_er_une_voiture">Créer une voiture</string>
+    <string name="marque">marque</string>
+    <string name="modele">Modèle</string>
+    <string name="actualiser">Actualiser</string>
+    <string name="voiture">Voiture</string>
+    <string name="quitter">Quitter</string>
+    <string name="aucune_donn_e">Aucune donnée</string>
+    <string name="mod_le">Modèle</string>
+    <string name="ann_e">Année</string>
+    <string name="envoyer_les_donn_es">Envoyer les données</string>
+    <string name="accueil">Accueil</string>
+</resources>

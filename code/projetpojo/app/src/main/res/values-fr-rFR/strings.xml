@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">projet pojo</string>
+    <string name="cr_er_une_voiture">Créer une voiture</string>
+    <string name="marque">marque</string>
+    <string name="modele">Modèle</string>
+    <string name="actualiser">Actualiser</string>
+    <string name="voiture">voiture</string>
+    <string name="quitter">quitter</string>
+    <string name="aucune_donn_e">aucune donnée</string>
+    <string name="mod_le">Modèle</string>
+    <string name="ann_e">année</string>
+    <string name="envoyer_les_donn_es">envoyer les données</string>
+    <string name="accueil">accueil</string>
+</resources>

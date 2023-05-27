@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMain_marque3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/marque"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain_marque" />
+
+    <TextView
+        android:id="@+id/textView_année2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/ann_e"
+        app:layout_constraintStart_toStartOf="@+id/textViewMain_marque"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMain_modele3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/mod_le"
+        app:layout_constraintStart_toStartOf="@+id/textViewMain_modele"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain_modele" />
+
+    <Button
+        android:id="@+id/button_pojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/cr_er_une_voiture"
+        app:layout_constraintBottom_toTopOf="@+id/button_quitter"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_actualiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/actualiser"
+        app:layout_constraintBottom_toTopOf="@+id/button_quitter"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMain_annee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/aucune_donn_e"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMain_modele3"
+        app:layout_constraintStart_toEndOf="@+id/textViewMain_modele3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain_modele3" />
+
+    <TextView
+        android:id="@+id/textViewMain_modele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/aucune_donn_e"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMain_marque3"
+        app:layout_constraintStart_toEndOf="@+id/textViewMain_marque3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain_marque3" />
+
+    <TextView
+        android:id="@+id/textViewMain_marque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/aucune_donn_e"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMain_marque3"
+        app:layout_constraintStart_toEndOf="@+id/textViewMain_marque3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_année2" />
+
+    <Button
+        android:id="@+id/button_quitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/quitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_pojo">
+
+    <EditText
+        android:id="@+id/editTextText_marque"
+        android:layout_width="271dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/marque"
+        app:layout_constraintBottom_toTopOf="@+id/textViewMain_modele"
+        app:layout_constraintStart_toStartOf="@+id/textViewMain_modele" />
+
+    <TextView
+        android:id="@+id/textViewMain_marque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/marque"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:text="@string/envoyer_les_donn_es"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMain_modele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="153dp"
+        android:text="@string/mod_le"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_année"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/ann_e"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_modele" />
+
+    <EditText
+        android:id="@+id/editTextText_modele"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/modele"
+        app:layout_constraintStart_toStartOf="@+id/textViewMain_modele"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain_modele" />
+
+    <EditText
+        android:id="@+id/editTextDate_année"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="2000"
+        app:layout_constraintStart_toStartOf="@+id/textView_année"
+        app:layout_constraintTop_toBottomOf="@+id/textView_année" />
+
+    <Button
+        android:id="@+id/button_accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/accueil"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_main"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPojo_quitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="@string/quitter"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_main"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
